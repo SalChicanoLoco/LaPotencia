@@ -1,0 +1,9 @@
+flask
+requests
+openrouteservice
+ortools
+pandas
+simplekml
+folium
+numpy
+gunicorn
