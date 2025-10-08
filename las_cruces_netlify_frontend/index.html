@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Las Cruces Route Optimizer</title>
+    <link rel="stylesheet" href="assets/style.css" />
+    <script defer src="js/app.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>🚛 Las Cruces Route Optimizer</h1>
+      <p class="subtitle">Revamp Natural Herb Transport | Sales Campaign Dashboard</p>
+    </header>
+
+    <section id="main">
+      <div class="controls">
+        <label for="backendUrl">Backend API URL:</label>
+        <input id="backendUrl" type="text" value="https://las-cruces-api.onrender.com" />
+        <button id="loadMap">Load Optimizer</button>
+      </div>
+
+      <iframe id="optimizerFrame" src="" title="Route Optimizer"></iframe>
+    </section>
+
+    <footer>
+      <p>Powered by Revamp Natural Herb Transport · Built with ❤️ using Flask + Netlify</p>
+    </footer>
+  </body>
+</html>
